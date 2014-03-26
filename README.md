@@ -45,10 +45,13 @@ c.f. /ref-script/main.csx
 
 c.f. /ref-assembly/random.csx
 
-## Installing nuget packages
+### Referencing nuget packages
 
 1. install the package with scriptcs: `$ scriptcs -install [package]`
-2. specify a particlar package version: `$ scriptcs -install [package] -packageversion [version]`
+2. OR specify a particlar package version: `$ scriptcs -install [package] -packageversion [version]`
+3. nuget packages are implicitly referenced (just add "using" statements)
+
+c.f. /nuget/main.csx
 
 ## Installing script packs
 
