@@ -1,5 +1,8 @@
 # ScriptCS Lightning Talk
 
+[ScriptCS project page](http://scriptcs.net/)
+[ScriptCS on github](https://github.com/scriptcs/scriptcs)
+
 ## Installation
 
 1. run powershell as admin
@@ -22,13 +25,25 @@ Scripts run in a "roslyn" scripting session.
 
 c.f. /basic/httpd.csx
 
+### Passing args to a script
+
+Pass args to a script during invocation, in order, after a double-hyphen.
+
+e.g.: `foo.csx -- bar baz bin`
+
+c.f. /args/args.csx
+
 ### Referencing other scripts
 
 1. include `#load` directives at the top of your script
 
+c.f. /ref-script/main.csx
+
 ### Referencing assemblies
 
 1. include `#r` directives at the top of your script
+
+c.f. /ref-assembly/random.csx
 
 ## Installing nuget packages
 
